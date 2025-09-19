@@ -12,7 +12,7 @@ stats — giving you a clean overview of your project at a glance.
 - Show current branch, remote name, latest commit, and author info
 - Count commits and optionally lines of code
 - Clean side-by-side layout inspired by `neofetch`
-- Minimal dependencies: C++20 standard library, `git`
+- Cross-platform, supports both `Unix` and `Windows`
 
 # Use Cases
 
