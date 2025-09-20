@@ -2,7 +2,7 @@
 
 #include <filesystem>
 
-#include "GitData.hpp"
+#include "data/GitData.hpp"
 
 namespace parse
 {
@@ -12,7 +12,7 @@ namespace fs = std::filesystem;
 class Parser
 {
     fs::path path{};
-    GitData gitData{};
+    data::GitData gitData{};
 
 private:
     std::string runGitCommand(const std::string& command);
@@ -23,13 +23,13 @@ private:
     std::string getUser();
     std::string getBranchName();
     size_t getCommitCount();
-    CommitInfo getLastCommit();
+    data::CommitInfo getLastCommit();
 
 public:
     Parser(const fs::path& root = "");
     ~Parser();
 
-    GitData getData();
+    data::GitData getData();
 };
 
 }  // namespace parse

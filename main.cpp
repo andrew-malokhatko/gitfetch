@@ -60,7 +60,7 @@ int main(int argc, char* argv[])
     static const std::string_view repositoryPath = "/home/andr/Programming/C++/concurrency";
 
     // extract data from the git repo
-    GitData gitData{};
+    data::GitData gitData{};
 
     try
     {

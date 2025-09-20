@@ -100,9 +100,9 @@ size_t Parser::getCommitCount()
     return count;
 }
 
-CommitInfo Parser::getLastCommit()
+data::CommitInfo Parser::getLastCommit()
 {
-    CommitInfo lastCommit{};
+    data::CommitInfo lastCommit{};
     std::string command = constructGitCommand("git log -1");
     std::string output = runGitCommand(command);
 
@@ -132,7 +132,7 @@ CommitInfo Parser::getLastCommit()
     return lastCommit;
 }
 
-GitData Parser::getData()
+data::GitData Parser::getData()
 {
     return gitData;
 }

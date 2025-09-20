@@ -8,7 +8,7 @@ add_executable(gitfetch
         parse/Parser.cpp
         disp/Display.h
         disp/unix/Display.cpp
-        GitData.hpp
+        data/GitData.hpp
 )
 
 target_include_directories(gitfetch

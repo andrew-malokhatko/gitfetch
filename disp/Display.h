@@ -24,7 +24,7 @@ public:
     void printVersion();
     void printUsage();
 
-    void printData(const GitData& gitData);
+    void printData(const data::GitData& gitData);
 };
 
 }

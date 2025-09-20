@@ -2,6 +2,9 @@
 
 #include <string>
 
+namespace data
+{
+
 struct CommitInfo
 {
     std::string author;
@@ -20,3 +23,5 @@ struct GitData
     size_t commitCount{};
     CommitInfo commit{};
 };
+
+}

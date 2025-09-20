@@ -28,7 +28,7 @@ namespace disp
         std::cout << "usage: 'gitfetch <path>'\n";
     }
 
-    void Display::printData(const GitData& gitData)
+    void Display::printData(const data::GitData& gitData)
     {
         std::cout << defaultAsciiArt << "\n";
 
