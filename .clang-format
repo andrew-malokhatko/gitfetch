@@ -13,5 +13,6 @@ PointerAlignment: Left
 SpacesInParentheses: false
 SpacesInSquareBrackets: false
 SpaceBeforeParens: ControlStatements
+AlignAfterOpenBracket: BlockIndent
 Cpp11BracedListStyle: true
 Standard: c++20

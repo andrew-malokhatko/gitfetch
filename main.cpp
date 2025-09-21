@@ -2,7 +2,7 @@
 #include <string>
 #include <string_view>
 
-#include "disp/Display.h"
+#include "disp/Display.hpp"
 #include "parse/Parser.hpp"
 
 static disp::Display display{};
